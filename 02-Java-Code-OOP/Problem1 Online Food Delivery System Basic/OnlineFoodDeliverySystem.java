@@ -1,8 +1,10 @@
 class FoodItem {
-    int itemId;
-    String itemName;
-    double price;
-    int quantity;
+   private  int itemId;
+    private String itemName;
+    private double price;
+    private int quantity;
+
+    
 
     FoodItem(int itemId, String itemName, double price, int quantity) {
         this.itemId = itemId;
@@ -51,7 +53,7 @@ public class OnlineFoodDeliverySystem {
         FoodItem item4 = new FoodItem(104, "Cold Drink", 50.0, 4);
 
         Customer cust1 = new Customer(1, "Sarthak", "9876543210");
-        Customer cust2 = new Customer(2, "Rishabh", "9123456780");
+       // Customer cust2 = new Customer(2, "Rishabh", "9123456780");
 
         System.out.println("\n--- Food Items Ordered ---");
         item1.displayItemDetails();
